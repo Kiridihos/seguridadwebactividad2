@@ -161,18 +161,14 @@ php artisan key:generate
 ```bash
 php artisan migrate --seed
 ```
-
-8. Iniciar el entorno de desarrollo:
-
+importante ejecutar el siguiente comando
 ```bash
-composer run dev
+npm run build
 ```
-
-Si prefieres ejecutarlo por separado:
+despues ya se puede levantar el servidor 
 
 ```bash
 php artisan serve
-npm run dev
 ```
 
 ---
