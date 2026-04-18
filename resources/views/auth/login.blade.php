@@ -5,8 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
+                <div class="card-header">{{ __('Inicio de sesión') }}</div>
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
@@ -65,6 +64,13 @@
                             </div>
                         </div>
                     </form>
+                </div>
+                <div class="card-footer text-center">
+                    <p>Usuarios de prueba:
+                            <strong>administrador@prueba.com</strong> 12345678
+                            <strong>usuario@prueba.com</strong> 12345678
+                            <strong>editor@prueba.com</strong> 12345678
+                    </p>
                 </div>
             </div>
         </div>
